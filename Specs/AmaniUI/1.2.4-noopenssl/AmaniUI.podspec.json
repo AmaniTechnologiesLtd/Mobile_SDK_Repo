@@ -19,7 +19,7 @@
   },
   "source_files":[
     "Sources/**/*.{h,m,swift,xcprivacy}",
-    "Sources/AmaniUI/**/*.{h,m,swift,xib,xcprivacy}"
+    "Sources/AmaniUI/**/*.{h,m,swift,xcprivacy}"
   ] ,
   "resource_bundles":{ "AmaniUI": "Sources/AmaniUI/*/*.{xib,storyboard,xcassets,xcprivacy}" },
   "documentation_url": "https://documentation.amani.ai",
@@ -34,7 +34,7 @@
         "~>4.5"
     ],
     "AmaniSDK": [
-      "~> 3.4.7-noopenssl"
+      "3.4.7-noopenssl"
     ]
   }
 }
