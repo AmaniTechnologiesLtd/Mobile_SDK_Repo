@@ -1,6 +1,6 @@
 {
   "name": "AmaniVideoSDK",
-  "version": "2.0.2-beta2",
+  "version": "2.0.2",
   "license": {
     "type": "Copyright",
     "text": "\t\t\t\t\t\t\t\t\t\t\t\t\t\tCopyright 2023\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tAmani Ai AŞ.\n"
@@ -23,10 +23,10 @@
   "vendored_frameworks": "AmaniVideoSDK.xcframework",
   "dependencies": {
     "Socket.IO-Client-Swift": [
-      "~> 16"
+      "~> 16.0"
     ],
     "WebRTC-lib":[
-      "~> 135.0.0"
+      "~> 116.0.0"
     ]
   }
 }
