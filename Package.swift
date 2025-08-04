@@ -2,7 +2,7 @@
 import PackageDescription
 
 let CoreVersion = "3.4.14"
-let CoreChecksum = "20c66cd72cbe7f70c5d91898e6fd2ea2acf880240874d5f5b1de781a2caf9bc8"
+let CoreChecksum = "cd6959772225b60b991f52dbdefaf763118c492b6ba4648d810f761d4e9a567e"
 
 let UIVersion = "1.1.8"
 let VideoVersion = "2.0.1"
