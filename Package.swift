@@ -25,6 +25,10 @@ let package = Package(
             name:"AmaniVideoSDK",
             targets: ["AmaniVideoBundle"]
         )
+	.library(
+	    name: "AmaniBioMatch",
+	    targets: ["AmaniBioMatchBundle"]
+	)
     ],
     dependencies: [
         .package(
