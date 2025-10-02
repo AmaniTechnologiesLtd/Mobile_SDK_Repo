@@ -63,7 +63,7 @@ let package = Package(
         ),
 	.binaryTarget(
 		name: "AmaniBioMatch",
-		url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniBioMatch/\(BioMatchVersion)/AmaniBioMatch.xcframework.zip?raw=true",
+		url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniBioMatch/v\(BioMatchVersion)/AmaniBioMatch.xcframework.zip?raw=true",
             checksum: "\(VideoCheckSum)"
 	),   
         .binaryTarget(
