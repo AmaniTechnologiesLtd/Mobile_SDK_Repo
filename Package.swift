@@ -25,10 +25,10 @@ let package = Package(
             name:"AmaniVideoSDK",
             targets: ["AmaniVideoBundle"]
         )
-	.library(
-	    name: "AmaniBioMatch",
-	    targets: ["AmaniBioMatchBundle"]
-	)
+        .library(
+            name: "AmaniBioMatch",
+            targets: ["AmaniBioMatchBundle"]
+        )
     ],
     dependencies: [
         .package(
@@ -65,11 +65,17 @@ let package = Package(
             url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniSDK/v\(CoreVersion)/AmaniSDK.xcframework.zip?raw=true",
             checksum: "\(CoreChecksum)"
         ),
-	.binaryTarget(
-		name: "AmaniBioMatch",
-		url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniBioMatch/v\(BioMatchVersion)/AmaniBioMatch.xcframework.zip?raw=true",
-            checksum: "\(BioMatchCheckSum)"
-	),   
+        .binaryTarget(
+          name: "AmaniBioMatch",
+          url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniBioMatch/v\(BioMatchVersion)/AmaniBioMatch.xcframework.zip?raw=true",
+          checksum: "\(BioMatchCheckSum)"
+        ),
+        .target(
+          name: "AmaniBioMatchBundle",
+          dependencies: [
+            "AmaniBioMatch"
+          ]
+        ),
         .binaryTarget(
             name: "AmaniVideoSDK",
             url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniVideoSDK/\(VideoVersion)/AmaniVideoSDK.xcframework.zip?raw=true",
