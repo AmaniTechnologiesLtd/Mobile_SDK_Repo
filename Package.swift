@@ -7,8 +7,8 @@ let CoreChecksum = "59fb82c50e0b4e3963d8ea5b91ba61361d70bcdd43221ee5af98d31ff597
 let VideoVersion = "2.0.3"
 let VideoCheckSum = "8dcf51f00f24e599feec1cb92e4e0631216494335a431debec1a6b597e3110ad"
 
-let BioMatchVersion = "1.0.0"
-let BioMatchCheckSum = "ecb2333a29a4a20d8a3ae2ee913620209d4d5fc53747ebe566c9a79637059bf4"
+let BioMatchVersion = "1.0.1"
+let BioMatchCheckSum = "adec8e978ab4126b92cad9d3b2eaa5994e88c0d3ead7ac74e21060fe106999d7"
 
 let package = Package(
     name: "AmaniRepo",
