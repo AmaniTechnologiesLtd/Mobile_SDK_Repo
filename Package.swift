@@ -29,10 +29,6 @@ let package = Package(
             name: "AmaniBioMatch",
             targets: ["AmaniBioMatchBundle"]
         )
-	.library(
-	    name: "AmaniBioMatch",
-	    targets: ["AmaniBioMatchBundle"]
-	)
     ],
     dependencies: [
         .package(
@@ -68,12 +64,7 @@ let package = Package(
             name: "AmaniSDK",
             url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniSDK/v\(CoreVersion)/AmaniSDK.xcframework.zip?raw=true",
             checksum: "\(CoreChecksum)"
-        ),
-	.binaryTarget(
-		name: "AmaniBioMatch",
-		url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniBioMatch/v\(BioMatchVersion)/AmaniBioMatch.xcframework.zip?raw=true",
-            checksum: "\(BioMatchCheckSum)"
-	),   
+        ),  
         .binaryTarget(
           name: "AmaniBioMatch",
           url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniBioMatch/v\(BioMatchVersion)/AmaniBioMatch.xcframework.zip?raw=true",
