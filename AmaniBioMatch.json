@@ -3,4 +3,6 @@
  	"1.0.1": "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/raw/main/Carthage/AmaniBioMatch/v1.0.1/AmaniBioMatch.xcframework.zip"
   "1.0.2":
       "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/raw/main/Carthage/AmaniBioMatch/v1.0.2/AmaniBioMatch.xcframework.zip"
+  "1.2.0":
+      "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/raw/main/Carthage/AmaniBioMatch/v1.2.0/AmaniBioMatch.xcframework.zip"
 }
