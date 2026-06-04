@@ -18,16 +18,18 @@
     "tag": "1.3.8"
   },
   "source_files":[
-    "Sources/**/*.{h,m,swift,xcprivacy}",
-    "Sources/AmaniUI/**/*.{h,m,swift,xib,xcprivacy}"
-  ] ,
+    "source_files": "Sources/AmaniUI/**/*.{h,m,swift}"
+  ],
+  "exclude_files": [
+    "Sources/AmaniUnitTests/**/*"
+  ],
   "resource_bundles":{ "AmaniUI": "Sources/AmaniUI/*/*.{xib,storyboard,xcassets,xcprivacy}" },
   "documentation_url": "https://documentation.amani.ai",
   "platforms": {
     "ios": "13.0"
   },
   "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit"
+    "OTHER_LDFLAGS": "$(inherited) -weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit"
   },
   "dependencies": {
     "lottie-ios": [
